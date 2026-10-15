@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Local / IDE
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs / runtime
+*.log
+*.pid
+.cache/
+
+# Generated workspace (keep folder)
+files/*
+!files/.gitkeep
+
+# Local chats + memory
+data/chats/
+data/memory.json
+!data/.gitkeep
